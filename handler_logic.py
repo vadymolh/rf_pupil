@@ -58,7 +58,7 @@ class Pupil_mark():
         який підходить під час спрацювання мітки, 
         і нічого, якщо такого уроку немає за розкладом
         """
-        if self.day>6: 
+        if self.day>5: 
             return None 
         # Кількість хвилин для правильної відмітки до уроку і після  
         delta = timedelta(minutes=self.TIME_FOR_CHECK)
