@@ -7,7 +7,7 @@ class Pupil_mark():
     def __init__(self, classroom, key_uid_code, sql_conn):
         self.stamp = datetime.now()
         self.day = self.stamp.isoweekday()
-        print "Day: ",self.day
+        #print "Day: ",self.day
         print classroom
         #print key_uid_code
         self.sql = sql_conn
